@@ -1,0 +1,55 @@
+header {
+    height: 32px;
+    background-color: #333333;
+    font-size: 20px;
+    text-align: right;
+    padding: 6px 7% 6px 10%;
+    line-height: 32px;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    margin-right: 35px;
+    vertical-align: middle;
+    color: #ff0099;
+}
+
+main {
+    background-image: url(../assets/img/topography.png);
+    font-family: Consolas;
+    margin: 0;
+    padding: 1px;
+}
+
+#name {
+    font-size: 35px;
+}
+
+h1,
+h2,
+h3 {
+    padding: 0 10%;
+}
+
+#aboutMe::after {
+    content: ". . .";
+    text-align: center;
+    display: block;
+    letter-spacing: 10px;
+}
+
+#profession {
+    font-size: 25px;
+    color: #ff0099;
+}
+
+p {
+    padding: 0 10%;
+}
+
+#description {
+    text-align: center;
+
